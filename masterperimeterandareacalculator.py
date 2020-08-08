@@ -1,13 +1,9 @@
 #Perimeter and Area Formulas for Popular Shapes
-#'per' indicates perimeter and 'ar' indicates area
-#To Add: *****Have the program re-start automatically after giving answer, and have it possible to click on a shape but change it later.********* 
+#'per' indicates perimeter and 'ar' indicates area 
 
 import math
 import tkinter as tk
 from tkinter import messagebox
-import os
-import sys
-
 
 def perTriangle():
     tk.Label(window, text = "Enter in the Numbers: ", background = "white").place(x = 1115, y = 100)
